@@ -12,7 +12,6 @@ $bot_token = "8659330254:AAH66xfeVZMM8cP_OAe2F8GGWTTYe8wgjs4";  // از @BotFath
 $admin_chat_id = "7019731206";  // آیدی عددی گیرنده
 
 // ============================================
-// بخش ۱: وب‌هوک - پاسخ فقط به ادمین
 // ============================================
 if (isset($_GET['webhook'])) {
     $content = file_get_contents('php://input');
